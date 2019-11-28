@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Receive News</h1>
+        <br>
+        <nav>
+            <a href="index.hrml">Turn back</a>
+        </nav>
+    </header>
+    <br>
+    <section>
+        <img src="cybertruck.jpg" alt="Cybertruck" width="300">
+        <br>
+        <label> A few days after Elon Musk unveiled Tesla's new</label> <b>Cybertruck</b>
+    </section>
+    <main>
+        <form method="POST" action="https://formspree.io/mrgbekgd">
+            <label>Name:
+                <input type="text" placeholder="Name" name="name" required>
+            </label>
+            <label>Email:
+                <input type="email" placeholder="Email" name="email" required>
+            </label>
+            <br>
+            <label>Gender:</label>
+            <label>
+                <input type="radio" name="gender" value="male">Male</label>
+            <label>
+                <input type="radio" name="gender" value="female">Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other">Other
+            </label>
+            <br>
+            <label>Comments:<textarea name="comments"></textarea>
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
